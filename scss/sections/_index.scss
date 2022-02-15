@@ -1,0 +1,169 @@
+@import '../utilities/colors';
+@import '../utilities/extend';
+@import '../utilities/mixin';
+@import '../utilities/map';
+
+.navbar {
+    background: $primary-color;
+    font-size: 1.5rem;
+    .navbar-brand {
+        color: $secondary-color !important;
+        font-size: 2rem;
+        &:hover {
+            color: #fff !important;
+        }
+    }
+    li {
+        &:hover {
+            border-bottom: 2px solid $secondary-color;
+        }
+    } 
+}
+
+.banner {
+    background: url('../img/banner.jpg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    h1 {
+        @extend %banner-title;
+    }
+    h2 {
+        font-size: 2.5rem;
+        color: $secondary-color;
+        text-align: center;
+    }
+}
+
+.sidebar {
+    background: url(../img/training.jpg) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sidebar .sub-main-text {
+    padding-bottom: 2.5rem;
+}
+.sidebar .sub-main-text h3 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue',  cursive;
+    color: #fff;
+    font-weight: 400;
+}
+.sidebar .sub-main-text h1 {
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue',  cursive;
+    color: #fff;
+}
+
+.sidebar .sub-main-text button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.twin1 {  
+    background: url(../img/services.jpeg) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .twin1 .fitness-grupal {
+    padding: 2rem;
+  }
+  .twin1 .fitness-grupal h1 {
+    font-size: 4rem;
+    color: $secondary-color;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    .sub-main-text {
+        a {
+            .buttons {
+                @include button ($primary-color, $secondary-color);
+            }
+        }
+    }
+    .fitness-grupal {
+        a {
+            .buttons {
+                @include button ($primary-color, $secondary-color);
+            }
+        }
+    }
+}
+
+.promotion { 
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .promotion .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .promotion .icons p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .promotion .icons p i {
+    color: rgb(0, 162, 255);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+.carousel-control-next, .carousel-control-prev {
+      border: 2px solid black !important;
+      height: 50px;
+      background: $primary-color !important;
+      margin: auto;
+}
+.carousel {
+    .content-banner {
+        background: url(../img/boxing.jpeg) no-repeat center center/cover;
+        .buttons {
+            @include button ($primary-color, $secondary-color);
+        }
+        h1 {
+            @extend %banner-title;
+        }
+    }
+}
+
+.membership-section {
+    background: url(../img/membership.jpg) no-repeat center center/cover;
+    height: 600px;
+    h1 {
+        @extend %banner-title;
+        span {
+            color: $secondary-color;
+        }
+    }
+    .buttons {
+        @include button ($primary-color, $secondary-color);
+    }
+}
+.subscription {
+    background-color: #dfdfdf;
+    h1 {
+        span {
+            color: $secondary-color;
+        }
+    }
+    .buttons {
+        @include button ($primary-color, $secondary-color);
+    }
+}

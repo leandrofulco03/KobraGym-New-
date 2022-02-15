@@ -1,0 +1,16 @@
+@import '../utilities/colors';
+@import '../utilities/mixin';
+
+/* CONTACT SECTION */
+.form {
+    h1 {
+        font-size: 3rem;
+        border-bottom: 2px solid $secondary-color;
+    }
+    input, textarea {
+        width: 300px;
+    }
+    .buttons {
+        @include button ($primary-color, $secondary-color);
+    }
+}

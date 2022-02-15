@@ -1,0 +1,27 @@
+@import '../utilities/colors';
+@import '../utilities/extend';
+
+/* SHOP SECTION */
+.shop-banner {
+    background: url(../img/shop.jpg) no-repeat center center/cover;
+    height: 600px;
+    h1 {
+        @extend %banner-title;
+        border-bottom: 2px solid $secondary-color;
+    }
+    p {
+        font-size: 1.5rem;
+        a {
+            &:hover {
+                color: $secondary-color !important;
+            }
+        }
+    }
+}
+
+.btn-warning {
+    background: $secondary-color !important;
+}
+.btn-warning:hover {
+    background: #ff6600 !important;
+}

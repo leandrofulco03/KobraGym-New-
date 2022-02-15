@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400; }
+
+/* VARIABLES */
+/* IMPORTS */
+.content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+.font-regular {
+  font-weight: 400; }
+
+.font-medium {
+  font-weight: 600; }
+
+.font-bold {
+  font-weight: 800; }
+
+.navbar {
+  background: #000;
+  font-size: 1.5rem; }
+  .navbar .navbar-brand {
+    color: #fd7a00 !important;
+    font-size: 2rem; }
+    .navbar .navbar-brand:hover {
+      color: #fff !important; }
+  .navbar li:hover {
+    border-bottom: 2px solid #fd7a00; }
+
+.banner {
+  background: url("../img/banner.jpg") no-repeat center center/cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.content h2 {
+  font-size: 2.5rem;
+  color: #fd7a00;
+  text-align: center; }
+
+.sidebar {
+  background: url(../img/training.jpg) no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; }
+
+.sidebar .sub-main-text {
+  padding-bottom: 2.5rem; }
+
+.sidebar .sub-main-text h3 {
+  font-size: 3rem;
+  font-family: 'Bebas Neue',  cursive;
+  color: #fff;
+  font-weight: 400; }
+
+.sidebar .sub-main-text h1 {
+  font-size: 4.5rem;
+  font-family: 'Bebas Neue',  cursive;
+  color: #fff; }
+
+.sidebar .sub-main-text button a {
+  color: #fff;
+  text-decoration: none; }
+
+.twin1 {
+  background: url(../img/services.jpeg) no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.twin1 .fitness-grupal {
+  padding: 2rem; }
+
+.twin1 .fitness-grupal h1 {
+  font-size: 4rem;
+  color: #fd7a00;
+  font-weight: 400; }
+
+.row {
+  display: flex;
+  justify-content: center; }
+  .row .sub-main-text a .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .row .sub-main-text a .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+  .row .fitness-grupal a .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .row .fitness-grupal a .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+
+.promotion {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center; }
+
+.promotion .icons {
+  display: flex;
+  flex-direction: column; }
+
+.promotion .icons p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem; }
+
+.promotion .icons p i {
+  color: #00a2ff;
+  font-size: 2.5rem;
+  padding-bottom: 1rem; }
+
+.carousel-control-next, .carousel-control-prev {
+  border: 2px solid black !important;
+  height: 50px;
+  background: #000 !important;
+  margin: auto; }
+
+.carousel .content-banner {
+  background: url(../img/boxing.jpeg) no-repeat center center/cover; }
+  .carousel .content-banner .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .carousel .content-banner .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+
+.membership-section {
+  background: url(../img/membership.jpg) no-repeat center center/cover;
+  height: 600px; }
+  .membership-section h1 span {
+    color: #fd7a00; }
+  .membership-section .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .membership-section .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+
+.subscription {
+  background-color: #dfdfdf; }
+  .subscription h1 span {
+    color: #fd7a00; }
+  .subscription .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .subscription .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+
+.content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+/* SHOP SECTION */
+.shop-banner {
+  background: url(../img/shop.jpg) no-repeat center center/cover;
+  height: 600px; }
+  .shop-banner h1 {
+    border-bottom: 2px solid #fd7a00; }
+  .shop-banner p {
+    font-size: 1.5rem; }
+    .shop-banner p a:hover {
+      color: #fd7a00 !important; }
+
+.btn-warning {
+  background: #fd7a00 !important; }
+
+.btn-warning:hover {
+  background: #ff6600 !important; }
+
+.content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+/* SERVICES SECTION */
+.services-banner {
+  background: url(../img/services.jpeg) no-repeat center center/cover;
+  height: 600px; }
+  .services-banner span {
+    color: #fd7a00; }
+
+.services-top-text p {
+  border: 2px solid #fd7a00;
+  padding: 1rem;
+  margin: 0.5rem; }
+
+.services-cards h3 {
+  border-bottom: 2px solid #fd7a00; }
+
+.content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+/* MEMBERSHIP SECTION */
+.member-banner {
+  background: url(../img/membership.jpg) no-repeat center center/cover;
+  height: 600px; }
+
+.join-flex-left h3 {
+  font-size: 2.5rem; }
+
+.join-flex-left span {
+  color: #fd7a00; }
+
+.join-flex-left p {
+  font-size: 1.5rem; }
+
+.join-flex-right h3 {
+  font-size: 2.5rem; }
+
+.join-flex-right input {
+  width: 300px;
+  height: 41px; }
+
+.join-flex-right .buttons {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 0 30px;
+  line-height: 41px;
+  position: relative;
+  border: 2px solid #fff;
+  z-index: 1;
+  font-size: 14px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .join-flex-right .buttons:hover {
+    cursor: pointer;
+    background: #fd7a00; }
+
+/* CONTACT SECTION */
+.form h1 {
+  font-size: 3rem;
+  border-bottom: 2px solid #fd7a00; }
+
+.form input, .form textarea {
+  width: 300px; }
+
+.form .buttons {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 0 30px;
+  line-height: 41px;
+  position: relative;
+  border: 2px solid #fff;
+  z-index: 1;
+  font-size: 14px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .form .buttons:hover {
+    cursor: pointer;
+    background: #fd7a00; }
+
+/* FOOTER */
+.footer {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff; }
+
+.footer .social-icons ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0; }
+
+.footer .social-icons a {
+  font-size: 1.5rem;
+  color: #ffff;
+  list-style: none;
+  text-decoration: none;
+  margin: 1rem; }
+
+.footer .social-icons a:hover {
+  color: #fd7a00; }
+
+/* UTILITIES */
+.content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center; }
+
+.font-regular {
+  font-weight: 400; }
+
+.font-medium {
+  font-weight: 600; }
+
+.font-bold {
+  font-weight: 800; }

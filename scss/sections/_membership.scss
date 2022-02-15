@@ -1,0 +1,38 @@
+@import '../utilities/colors';
+@import '../utilities/extend';
+@import '../utilities/mixin';
+
+/* MEMBERSHIP SECTION */
+.member-banner {
+    background: url(../img/membership.jpg) no-repeat center center/cover;
+    height: 600px;
+    h1 {
+        @extend %banner-title;
+    }
+}
+
+.join-flex-left {
+    h3 {
+        font-size: 2.5rem;
+    }
+    span {
+        color: $secondary-color;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.join-flex-right {
+    h3 {
+        font-size: 2.5rem;
+    }
+    input {
+        width: 300px;
+        height: 41px;
+    }
+    .buttons {
+        @include button ($primary-color, $secondary-color);
+    }
+}
+
