@@ -1,7 +1,7 @@
 {
-  "name": "proyecto-bootstrap",
+  "name": "kobragym",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este sitio esta basado en la construcción de un gimnasio llevado a la web, donde podrás afiliarte con una membresía mensual y adquirir productos propios",
   "main": "index.js",
   "dependencies": {
     "node-sass": "^7.0.1",
