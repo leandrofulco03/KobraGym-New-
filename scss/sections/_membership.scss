@@ -36,3 +36,16 @@
     }
 }
 
+.member-cards {
+    .card {
+        h2 {
+            border-bottom: 2px solid $secondary-color;
+        }
+        .text-line {
+            border-bottom: 2px solid $primary-color;
+        }
+        .buttons {
+            @include button ($primary-color, $secondary-color);
+        }
+    }
+}
