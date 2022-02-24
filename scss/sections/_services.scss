@@ -27,3 +27,16 @@
     }
 }
 
+.member-promotion {
+    background: $primary-color;
+    h1 {
+        font-size: 4rem;
+        color: #fff;
+        span {
+            color: $secondary-color;
+        }
+    }
+    .buttons {
+        @include button ($primary-color, $secondary-color);
+    }
+}

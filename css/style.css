@@ -48,45 +48,39 @@
 
 .sidebar {
   background: url(../img/training.jpg) no-repeat center center/cover;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center; }
-
-.sidebar .sub-main-text {
-  padding-bottom: 2.5rem; }
-
-.sidebar .sub-main-text h3 {
-  font-size: 3rem;
-  font-family: 'Bebas Neue',  cursive;
-  color: #fff;
-  font-weight: 400; }
-
-.sidebar .sub-main-text h1 {
-  font-size: 4.5rem;
-  font-family: 'Bebas Neue',  cursive;
-  color: #fff; }
-
-.sidebar .sub-main-text button a {
-  color: #fff;
-  text-decoration: none; }
+  .sidebar .sub-main-text {
+    padding-bottom: 2.5rem; }
+    .sidebar .sub-main-text h3 {
+      font-size: 3rem;
+      font-family: 'Bebas Neue',  cursive;
+      color: #fff;
+      font-weight: 400; }
+    .sidebar .sub-main-text h1 {
+      font-size: 4.5rem;
+      font-family: 'Bebas Neue',  cursive;
+      color: #fff; }
+    .sidebar .sub-main-text button a {
+      color: #fff;
+      text-decoration: none; }
 
 .twin1 {
   background: url(../img/services.jpeg) no-repeat center center/cover;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start; }
-
-.twin1 .fitness-grupal {
-  padding: 2rem; }
-
-.twin1 .fitness-grupal h1 {
-  font-size: 4rem;
-  color: #fd7a00;
-  font-weight: 400; }
+  .twin1 .fitness-grupal {
+    padding-top: 4rem; }
+    .twin1 .fitness-grupal h1 {
+      font-size: 4rem;
+      color: #fd7a00;
+      font-weight: 400; }
 
 .row {
   display: flex;
@@ -129,21 +123,18 @@
   align-content: space-between;
   justify-content: center;
   align-items: center; }
-
-.promotion .icons {
-  display: flex;
-  flex-direction: column; }
-
-.promotion .icons p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem; }
-
-.promotion .icons p i {
-  color: #00a2ff;
-  font-size: 2.5rem;
-  padding-bottom: 1rem; }
+  .promotion .icons {
+    display: flex;
+    flex-direction: column; }
+    .promotion .icons p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem; }
+      .promotion .icons p i {
+        color: #00a2ff;
+        font-size: 2.5rem;
+        padding-bottom: 1rem; }
 
 .carousel-control-next, .carousel-control-prev {
   border: 2px solid black !important;
@@ -255,6 +246,30 @@
 .services-cards h3 {
   border-bottom: 2px solid #fd7a00; }
 
+.member-promotion {
+  background: #000; }
+  .member-promotion h1 {
+    font-size: 4rem;
+    color: #fff; }
+    .member-promotion h1 span {
+      color: #fd7a00; }
+  .member-promotion .buttons {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0 30px;
+    line-height: 41px;
+    position: relative;
+    border: 2px solid #fff;
+    z-index: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .member-promotion .buttons:hover {
+      cursor: pointer;
+      background: #fd7a00; }
+
 .content h1, .carousel .content-banner h1, .membership-section h1, .shop-banner h1, .services-banner h1, .member-banner h1 {
   font-size: 4rem;
   color: #fff;
@@ -297,6 +312,9 @@
   .join-flex-right .buttons:hover {
     cursor: pointer;
     background: #fd7a00; }
+
+.member-cards h2 {
+  border-bottom: 2px solid #000; }
 
 .member-cards .card h2 {
   border-bottom: 2px solid #fd7a00; }

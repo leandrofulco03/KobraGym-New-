@@ -37,6 +37,9 @@
 }
 
 .member-cards {
+    h2 {
+        border-bottom: 2px solid $primary-color;
+    }
     .card {
         h2 {
             border-bottom: 2px solid $secondary-color;
